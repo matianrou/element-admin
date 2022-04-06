@@ -1,0 +1,110 @@
+
+.print-container {
+  position: relative;
+  height: 21cm;
+  width: 29.7cm;
+  margin: 0 auto;
+  
+  .print-left-form {
+    width: 480px;
+    position: absolute;
+    .print-left-form-item {
+      color: rgba(0, 0, 0, 0);
+      span {
+        // font-size: 26px;
+        font-family: 'FangSong ';
+        color: #606266;
+      }
+    }
+  }
+  .print-right-form {
+    width: 390px;
+    position: absolute;
+    .print-right-form-item {
+      color: rgba(0, 0, 0, 0);
+      span {
+        // font-size: 22px;
+        font-family: 'FangSong ';
+        color: #606266;
+      }
+    }
+    .flowshow{
+      float: left;
+      margin-top: 10px;
+    }
+  }
+  .print-qrcode-box {
+    position: absolute;
+    width: 2.6cm;
+    height: 2.6cm;
+    .print-qrcode-img {
+      // display: inline-block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .print-creditcode-box {
+    width: 300px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0);
+    span {
+      // font-size: 18px;
+      font-family: 'FangSong ';
+      color: #606266;
+    }
+  }
+}
+.print-container-a3 {
+  position: relative;
+  height: 29.7cm;
+  width: 42cm;
+  margin: 0 auto;
+  .print-left-form {
+    width: 600px;
+    
+    position: absolute;
+    .print-left-form-item {
+      color: rgba(0, 0, 0, 0);
+      span {
+        // font-size: 22px;
+        font-family: 'FangSong ';
+        color: #606266;
+      }
+      
+    }
+  }
+  .print-right-form {
+    width: 450px;
+    position: absolute;
+    .print-right-form-item {
+      color: rgba(0, 0, 0, 0);
+      span {
+        // font-size: 22px;
+        font-family: 'FangSong ';
+        color: #606266;
+      }
+    }
+  }
+  .print-qrcode-box {
+    position: absolute;
+    width: 2.7cm;
+    height: 2.7cm;
+    .print-qrcode-img {
+      // display: inline-block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .print-creditcode-box {
+    width: 300px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0);
+    span {
+      // font-size: 22px;
+      font-family: 'FangSong ';
+      color: #606266;
+    }
+  }
+}
+
+
